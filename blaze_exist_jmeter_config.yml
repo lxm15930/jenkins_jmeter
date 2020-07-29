@@ -1,11 +1,9 @@
 execution: 
-  - scenario: simple
+- executor: jmeter
+  scenario: 
+    script: demo.jmx
    
-   scenarios: 
-      simple: 
-        script: demo.jmx
-   
-   modules: 
+   modules:  
      jmeter: 
        download-link: https://mirrors.tuna.tsinghua.edu.cn/apache//jmeter/binaries/apache-jmeter-{version}.zip
        version: 5.2.1
