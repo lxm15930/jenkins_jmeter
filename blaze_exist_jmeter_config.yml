@@ -1,9 +1,15 @@
-execution: 
-- executor: jmeter
-  scenario: 
-    script: demo.jmx
+execution:
+- scenario: simple1   
+
+scenarios:
+   simple1:
+        script: 'demo.jmx' 
    
-   modules:  
-     jmeter: 
-       download-link: https://mirrors.tuna.tsinghua.edu.cn/apache//jmeter/binaries/apache-jmeter-{version}.zip
-       version: 5.2.1
+modules:
+    jmeter:
+        download-link: 'https://mirrors.tuna.tsinghua.edu.cn/apache//jmeter/binaries/apache-jmeter-{version}.zip' # 下载地址
+        version: 5.2.1  # 版本号
+
+reporting:
+- module: final-stats   # 摘要报告
+- module: console       # 控制台
