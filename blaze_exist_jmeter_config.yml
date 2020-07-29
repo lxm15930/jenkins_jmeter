@@ -1,5 +1,5 @@
 execution: 
-   scenario: simple
+  - scenario: simple
    
    scenarios: 
       simple: 
