@@ -2,8 +2,8 @@ execute:
    scenario: simple
    
    scenarios:
-     simple:
-       script: demo.jmx
+      simple:
+        script: demo.jmx
    
    modules:
      jmeter:
