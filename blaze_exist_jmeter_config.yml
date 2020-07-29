@@ -1,4 +1,4 @@
-execute:
+execution:
    scenario: simple
    
    scenarios:
