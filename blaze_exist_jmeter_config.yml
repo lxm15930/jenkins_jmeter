@@ -1,5 +1,5 @@
 execute:
-   - scenario: simple
+   scenario: simple
    
    scenarios:
      simple:
